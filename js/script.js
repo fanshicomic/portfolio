@@ -16,21 +16,21 @@ function resetGame() {
 }
 
 function leftdoor_lightup() {
-	var src = "_images/Alice_left_door.jpg";
+	var src = "img/Alice_left_door.jpg";
 	$(".left").attr("src",src);
 }
 
 function rightdoor_lightup() {
-	var src = "_images/Alice_right_door.jpg";
+	var src = "img/Alice_right_door.jpg";
 	$(".right").attr("src",src);
 }
 
 function leftdoor_lightoff() {
-	var src = "_images/Alice_left_door_dark.jpg";
+	var src = "img/Alice_left_door_dark.jpg";
 	$(".left").attr("src",src);
 }
 
 function rightdoor_lightoff() {
-	var src = "_images/Alice_right_door_dark.jpg";
+	var src = "img/Alice_right_door_dark.jpg";
 	$(".right").attr("src",src);
 }
